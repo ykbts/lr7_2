@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goods-card {
+  width: 250px; /* або інший розмір, який ви визначите */
+  margin: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
